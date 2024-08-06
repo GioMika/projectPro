@@ -7,7 +7,7 @@ on:
 
 jobs:
   pipeline:
-    runs-on: Linux-latest
+    runs-on: linux
     strategy:
       fail-fast: false
       matrix:
