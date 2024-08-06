@@ -61,4 +61,12 @@ module.exports = {
             },
         },
     ],
+
+    "@typescript-eslint/quotes": [
+        "error",
+        "single",
+        {
+            "allowTemplateLiterals": true
+        }
+    ]
 };
