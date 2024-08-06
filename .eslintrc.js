@@ -49,13 +49,6 @@ module.exports = {
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
-        '@typescript-eslint/quotes': [
-            'error',
-            'single',
-            {
-                allowTemplateLiterals: true,
-            },
-        ],
     },
     globals: {
         __IS_DEV__: true,
@@ -67,5 +60,13 @@ module.exports = {
                 'i18next/no-literal-string': 'off',
             },
         },
+    ],
+
+    "@typescript-eslint/quotes": [
+        "error",
+        "single",
+        {
+            "allowTemplateLiterals": true
+        }
     ],
 };
